@@ -8,15 +8,18 @@
    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-   <main class="container bg-zinc-900 flex flex-col items-center justify-center gap-5">
+   <div class="bg-zinc-900 w-screen h-screen flex flex-col items-center gap-5">
       <h1 class="text-4xl font-semibold text-zinc-200 pt-10">BUSCAR CNPJ</h1>
-      <form class="flex flex-col gap-2 p-20 rounded bg-zinc-500 text-white">
+      <form class="flex flex-col gap-2 p-10 rounded w-96 bg-zinc-500 text-white">
          <label for="cnpj">CNPJ:</label>
          <input type="text" class="cnpj rounded bg-zinc-600 p-2 text-sm" id="cnpj">
 
          <button class="search-button bg-zinc-800 text-zinc-200 text-xl px-10 py-2" id="search">Pesquisar</button>
       </form>
-   </main>
+      <div class="response w-96 text-white text-lg">
+
+      </div>
+   </div>
    <script type="module" src="./app.js"></script>
 </body>
 </html>
