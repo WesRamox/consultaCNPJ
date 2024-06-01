@@ -1,6 +1,9 @@
 const cpnjInput = document.querySelector('#cnpj')
 const sendButton = document.querySelector('.search-button')
 
+const createResult = () => {
+   
+}
 
 
 async function searchCNPJ() {
